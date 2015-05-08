@@ -5,18 +5,27 @@ logfile = crawl.log
 
 # List of DNS seeders to get a subset of reachable nodes
 seeders =
-    seed.bitcoin.sipa.be
-    dnsseed.bluematt.me
-    dnsseed.bitcoin.dashjr.org
-    seed.bitcoinstats.com
-    seed.bitnodes.io
-    bitseed.xf2.org
+    seed-000.guldencoin.net
+    seed-001.guldencoin.org
+    seed-002.guldencoin.nl
+    seed-003.guldencoin.net
+    seed-004.guldencoin.org
+    seed-005.guldencoin.nl
+    seed-006.guldencoin.net
+    seed-007.guldencoin.org
+    seed-008.guldencoin.nl
+    seed-009.guldencoin.net
+    seed-010.guldencoin.org
+    seed-011.guldencoin.nl
+    seed-012.guldencoin.net
+    seed-013.guldencoin.org
+    seed-014.guldencoin.nl
 
 # Number of concurrent workers (greenlets)
 workers = 400
 
 # Print debug output
-debug = False
+debug = True
 
 # Public IP address for network interface
 source_address = 0.0.0.0
@@ -31,7 +40,7 @@ protocol_version = 70002
 # crawler. This is so that users will not confuse your crawler with another
 # instance that is already running and generating data for the project.
 # -----------------------------------------------------------------------------
-user_agent = /getaddr.bitnodes.io:0.1/
+user_agent = /nodes.guldencoin.com:0.1/
 
 # Services to use for outgoing network address message
 services = 0
