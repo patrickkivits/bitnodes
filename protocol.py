@@ -149,11 +149,11 @@ from binascii import hexlify, unhexlify
 from cStringIO import StringIO
 from operator import itemgetter
 
-MAGIC_NUMBER = "\xF9\xBE\xB4\xD9"
+MAGIC_NUMBER = "\xCF\xFE\xF7\xE0"
 MIN_PROTOCOL_VERSION = 70001
 PROTOCOL_VERSION = 70002
 SERVICES = 0  # set to 1 for NODE_NETWORK
-USER_AGENT = "/getaddr.bitnodes.io:0.1/"
+USER_AGENT = "/nodes.guldencoin.com:0.1/"
 HEIGHT = 347706
 RELAY = 0  # set to 1 to receive all txs
 DEFAULT_PORT = 8333
@@ -918,7 +918,7 @@ class Connection(object):
 
 
 def main():
-    to_addr = ("148.251.238.178", 8333)
+    to_addr = ("188.166.83.134", 8333)
 
     handshake_msgs = []
     addr_msgs = []
