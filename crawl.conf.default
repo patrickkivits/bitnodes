@@ -25,7 +25,7 @@ seeders =
 workers = 400
 
 # Print debug output
-debug = True
+debug = False
 
 # Public IP address for network interface
 source_address = 0.0.0.0
