@@ -156,7 +156,7 @@ SERVICES = 0  # set to 1 for NODE_NETWORK
 USER_AGENT = "/nodes.guldencoin.com:0.1/"
 HEIGHT = 347706
 RELAY = 0  # set to 1 to receive all txs
-DEFAULT_PORT = 8333
+DEFAULT_PORT = 9231
 
 SOCKET_BUFSIZE = 8192
 SOCKET_TIMEOUT = 15
@@ -918,7 +918,7 @@ class Connection(object):
 
 
 def main():
-    to_addr = ("188.166.83.134", 8333)
+    to_addr = ("188.166.83.134", 9231)
 
     handshake_msgs = []
     addr_msgs = []
