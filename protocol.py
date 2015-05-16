@@ -149,7 +149,7 @@ from binascii import hexlify, unhexlify
 from cStringIO import StringIO
 from operator import itemgetter
 
-MAGIC_NUMBER = "\xCF\xFE\xF7\xE0"
+MAGIC_NUMBER = "\xFC\xFE\xF7\xE0"
 MIN_PROTOCOL_VERSION = 70001
 PROTOCOL_VERSION = 70002
 SERVICES = 0  # set to 1 for NODE_NETWORK
